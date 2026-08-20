@@ -67,7 +67,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #aaa;
+  color: rgb(7, 102, 165)
 }
 #interests ul {
   list-style: none;
@@ -79,11 +79,10 @@ h2 {
 }
 
 #interests li {
-  color: #555;
+  color: rgb(7, 102, 165);
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #fff;
   border: 1px solid #ddd;
   border-radius: 100px;
   transition:
