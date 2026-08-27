@@ -42,13 +42,14 @@ $(function () {
      createPlatform(1000, 500, 100, 20, "blue");
      createPlatform(400, 300, 20, 100, "blue");
      createPlatform(100, 400, 600, 20, "blue");
+     createPlatform(100, 0, 10, 400, "blue");
 
 
     // TODO 3 - Create Collectables
 
 createCollectable("database", 1025, 460);
 createCollectable("database", 540, 360);
-createCollectable("database", 100, 360);
+createCollectable("database", 120, 360);
     
     // TODO 4 - Create Cannons
     createCannon("top", 250, 1100);
