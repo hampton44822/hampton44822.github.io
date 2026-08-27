@@ -34,14 +34,14 @@ $(function () {
 
     createPlatform(20, 700, 100, 20, "blue");
     createPlatform(300, 630, 100, 20, "blue");
-    createPlatform(600, 650, 100, 20, "blue");
+    createPlatform(600, 600, 100, 20, "blue");
     createPlatform(800, 600, 400, 20, "blue");
     createPlatform(1200, 600, 20, -215, "blue");
      createBadPlatform(0,735, 1400, 10, "red");
      createPlatform(800, 400, 100, 20, "blue");
      createPlatform(1000, 500, 100, 20, "blue");
-     createPlatform(500, 300, 20, 100, "blue");
-     createPlatform(100, 400, 500, 20, "blue");
+     createPlatform(400, 300, 20, 100, "blue");
+     createPlatform(100, 400, 600, 20, "blue");
 
 
     // TODO 3 - Create Collectables
@@ -54,6 +54,7 @@ createCollectable("database", 100, 360);
     createCannon("top", 250, 1100);
     createCannon("top", 550, 1100);
     createCannon("bottom", 1000, 1100);
+    createCannon("right", 400, 1200);
 
 
     //spawn point 
