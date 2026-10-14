@@ -31,13 +31,21 @@ var init = function (window) {
             view.addChild(circle);
             circles.push(circle);
         }
+        Gamification.init({
+        canvas: canvas,
+        view: view,
+        draw: draw,
+        physikz: physikz,
+        circles: circles,
+        game: game
+        });
 
 
         // TODO 3 : Call the drawCircle() function
         
 
         // TODO 7 : Use a loop to create multiple circles
-        for(var i=0; i < 2000; i++){
+        for(var i=0; i < 50; i++){
             drawCircle()
         }
 
@@ -66,6 +74,7 @@ var init = function (window) {
         game.checkCirclePosition(circles[i]);
         }
         }
+        Gamification.update();
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
