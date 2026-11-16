@@ -1,20 +1,23 @@
 
 body {
-  background-color: darkgreen;
+  background-color: rgb(0, 0, 0);
 }
 
 #board {
-  width: 440px;
-  height: 440px;
-  border: 1px solid white;
+  width: 1240px;
+  height: 540px;
+  border: 3px solid white;
   background-color: black;
   position: relative;
 }
 
-#gameItem {
-  background-color: teal;
-  width: 50px;
-  height: 50px;
+#walker {
+  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCzcOZSBACB4kvJp6SNkJm-LRlAz4AiE1pdAuZaDO4ox7M9i5MyUaw3s:https://i.ytimg.com/vi/SVW6lYOl6RE/hqdefault.jpg&s=10");
+  background-size:50px;
+  background-repeat:no-repeat;
+  width: 35px;
+  height: 30px;
   position: absolute;
 /*   left: 100px; */  /* Uncomment if you want to set a "starting" position */
 /*   top: 100px;  */  /* Uncomment if you want to set a "starting" position */
