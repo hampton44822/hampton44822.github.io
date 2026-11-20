@@ -1,0 +1,53 @@
+<html>
+
+<head>
+	<title>Thanksgiving Match Game</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		
+		/* Add your css here */
+
+
+
+	</style>
+</head>
+
+<body>
+<!-- Add your html here -->
+<div id="game-wrapper">
+  <h1>Thanksgiving Match Game</h1>
+   <div id="match-grid">
+     
+  </div>
+  <a onclick="start()">RESTART</a>
+</div>
+
+
+
+	<script>
+		/* Add the images in following array */
+		var leaf = "https://lh3.googleusercontent.com/drive-storage/AJQWtBOC28-3Qwst131WMGrMPqv1BqP-3q8SmNaW_DL1LlfFjSGPa3luQvsK_Yf4g-0OSLi7ugLeymH2RQaGgYn_CYr9bgAleexzPSZ7Cfylxllfj4nA=w1920-h826?auditContext=forDisplay"
+    var turkey = "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvz4ot4uW7r01W2tL4Gk9Sx7N8vm8yibkL8StG6kP37vz4fm4ah-aF2LthM3CLNN9CDdyYkbLeI7YOUUhIdIzlzAh6Rko7kCqQgsb9xaJV6bby=w1920-h826?auditContext=forDisplay"
+    var pie = "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQWcRHo2OtVs25WcVy_AYufFp4vuCQFfjVqUbyGo9rwzjvbRDN84yli57kC6mLxPOaGLqnnQ9ThlO3CizuAJnRllvi65D4wGlPXZH_iiWcn2qu=w1920-h826?auditContext=forDisplay"
+    var slice = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNemlMlxzseXxBx6nrx0yvtQ_g7SfxWkWdb0HhMEc9vbvTZlJGWn6uBxm3zWvvTJQBdr3WJiPwg6e8e2TgThVM28_IxEEhkiJFJNPDpe0R-1iPV=w1920-h826?auditContext=forDisplay"
+    var boat = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUtt24FMp2wjCH7ce6wpZkyG8ycYOALTqy1dWI_Ityf8j2L_RP4h6MMGpHHHiK3VYVMvjCOExEe1F07uVzbmlDqa5WvXs-1IjmFD5uM-AR-Jjn=w1920-h826?auditContext=forDisplay" 
+    var hat = "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgbnFBIibbGnFXtR1-mYchJAt-2bqrR83SeAiFAnoCT-LgN_FwHtXo53QWOBKXLTilW_44D_9pVxAXXyYxTtMpijP_2E5Lh7vx4wwAjzzZ50Ks=w1920-h826?auditContext=forDisplay"
+    var corn = "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRGhCr_tonFNGYn0jgnQbWXJXehXL6NjIqjtPG2Fa0A9nZ8FHacvFqoxp1LCHksGPSNfMZ-TRBM_79X-_Vz4hO_5FMmMCRm53kh7b9U6XDIBe9=w1920-h826?auditContext=forDisplay"
+    var turkey2 = "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0WmIslO4Oam-i3MHKRo41wX5vPNLt9GQZ3Tbrc_hXm3YXWZLbgkxj9_EDFYPE_yZZvCUlje5r3kDcCC4CTXf8kFEOfm_f-BX4i3stRw4WYhwP=w1920-h826?auditContext=forDisplay"
+    var pumkin = "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOQk_MRAdi7aaRlAFdM4gmAFkUNx71pWclfXEWt3Rz07TnXwBMJyS7crm-1tQUcGKXo6VW2DuOPz29MScCPOHaNXsTBFkqdUwg6zWUm09PtGGU=w1920-h826?auditContext=forDisplay"
+    var leaf2 = "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1uptzjFSkrr6kTYJPuyDK9hJXT6qJ18s9X26dzMI5TvJjv_rs40LggcKkOwcdMLzNgzXjonRcNcLIk1kx9K49QW0SOBp4cvqladme1Ij5U-qh=w1920-h826?auditContext=forDisplay"
+    var  apple = "https://lh3.googleusercontent.com/drive-storage/AJQWtBOG4e_cz8jnasi4CHrD9YY2PbziHc9WtDY82zSvQGF0DeEihJpBDKXqfm-kxQB6TFeEqE_s301JiE2hTRAyJiebkiJNb8NWOUNtzao5hcxzkfpM=w1920-h826?auditContext=forDisplay"
+    var acorn = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNczdyLuDyY-pQepuDfq-R64rz8DeUiZF1Kxa21vtDnw15cIaeWlaDhhQ1hOp5bEGDeNRVcO5KDXCx_hHQZXfKOL8G7Rjq0z1gwVaiYkzWepnZ8=w1920-h826?auditContext=forDisplay"
+    var images = [leaf, turkey, pie, slice, boat, hat, corn, turkey2, pumkin, leaf2, apple, acorn];
+
+		start();
+
+	</script>
+</body>
+
+</html>
